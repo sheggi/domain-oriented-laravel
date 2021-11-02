@@ -1,3 +1,33 @@
+
+## Domain Oriented Laravel
+
+An example implementation of domain oriented laravel with an Album domain.
+
+Play with
+```shell
+# reset example with db seed
+php artisan reset
+
+# test actions and ide-support
+php artisan test-example
+
+# example implementaiton of user story
+php artisan user-story
+```
+
+Test Data as Request/Resource
+
+```json
+// post to /api/albums
+{
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "isPublished": true
+}
+```
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

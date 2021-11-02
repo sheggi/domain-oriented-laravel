@@ -7,11 +7,11 @@ use App\Domain\Album\Actions\GetMyFavoriteAlbumAction;
 use App\Domain\Album\Actions\SaveAlbumAction;
 use Illuminate\Console\Command;
 
-class TestCommand extends Command
+class TestExampleCommand extends Command
 {
-    protected $signature = 'test';
+    protected $signature = 'test-example';
 
-    protected $description = 'test';
+    protected $description = 'test-example';
 
     public function handle(
         GetInvalidAlbumAction $getInvalidAlbumAction,
